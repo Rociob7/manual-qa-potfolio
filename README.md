@@ -23,7 +23,7 @@ The application allows internal users to manage invoices: create, edit, track st
 
 - Excel / Google Sheets
 - Azure DevOps (not included here)
-- Manual testing on Chrome (latest)
+- Manual testing on Edge (latest)
 
 ## 🚀 Highlights
 
