@@ -12,5 +12,8 @@
 | | | 3 | Validate the window message provides accurate information warning |  | Pass |
 | | | 4 | Click X button | The window is closed | Pass |
 | 3 | Verify that a user with Maintenance permissions can see the 1-minute warning message for Weekly task | 1 | Pre. Req: Log in to QA<br>– Have permission for Administration and Maintenance. | Log in is successful. The system shows the data according to the user's permissions. | Pass |
+| | | 2 | Validate the user can see a window message warning 1-min. time frame | The task will be executed in 1 minute | Pass |
+| | | 3 | Validate the window message provides accurate information warning |  | Pass |
+| | | 4 | Click X button | The window is closed | Pass |
 > ⚠️ **These test cases are for demonstration purposes only.**  
 > They do not contain any real user data, confidential information, or production-sensitive details.
