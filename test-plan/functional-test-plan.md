@@ -1,7 +1,7 @@
 # Test Plan – Internal Invoicing Web App
 
 ## 1. Project Overview
-This test plan covers the functional testing activities for the internal web-based invoicing system used by client stakeholders. The application allows users to create, edit, send, and track invoices.
+This test plan covers the functional testing activities for the internal web-based invoicing system used by client stakeholders. The application in this sprint allows users to create, execute, delete, or cancel a task called 'Netting maintenance' in the Maintenance section.
 
 ## 2. Objectives
 - Verify that the invoice lifecycle works as expected (creation, approval, and status tracking)
@@ -10,35 +10,37 @@ This test plan covers the functional testing activities for the internal web-bas
 
 ## 3. Scope
 ### In Scope
-- Invoice creation and editing
-- PDF generation and download
-- Role-based access (Admin, Accountant, Viewer)
-- Status changes (Draft → Sent → Paid)
+- Netting maintenance creation, execution, deletion, and cancellation
+- Netting maintenance periodicity: none, daily, and weekly
+- Role-based access (Administration access, no administration access)
+- Windows messages indicating statuses of the task (start → progress → end)
 - Error handling and validations
 
 ### Out of Scope
-- Integration with third-party accounting software
-- Mobile responsiveness
+- Netting maintenance periodicity: monthly and yearly
 
 ## 4. Test Types
 - Functional testing
 - Regression testing
-- Smoke testing
-
+  
 ## 5. Test Deliverables
 - Test cases in Excel format
 - Bug reports documented per issue
+- OneNote (credentials)
 - Test summary report (TSR)
 
 ## 6. Environment
-- Web: Chrome / Edge (latest)
-- Test Environment: UAT server (URL provided internally)
-- Data: Preloaded test users and invoice data
+- Web: Edge (latest)
+- Test Environment: QA server (URL provided internally)
+- Data: User test for QA example-test2@example.net
 
 ## 7. Tools
 - Azure DevOps (Test case tracking and bug reporting)
 - Excel (Test case documentation)
-- Snagit / Loom (Bug evidence capture)
+- Scrnlu Screenshots & Screen Video Recorder (Bug evidence capture)
+## 8. Risks and Mitigation
+- Delays in development delivery: Adjust the test schedule accordingly and prioritize high-risk test cases first
+- Defects not fixed in time for testing: Track blockers in bug reports and communicate daily in standups or via ticketing tools (e.g., Azure DevOps)
 
 ## 8. Entry & Exit Criteria
 ### Entry
@@ -50,6 +52,6 @@ This test plan covers the functional testing activities for the internal web-bas
 - No critical or high severity defects open
 
 ## 9. Team
-- QA Manual Tester: [Your Name]
-- Product Owner: [Name]
-- Developers: [Name(s)]
+- QA Manual Tester: Rocio Bustamante
+- Product Owner: Denisa
+- Developers: Sergio, William
