@@ -42,7 +42,7 @@ This test plan covers the functional testing activities for the internal web-bas
 - Delays in development delivery: Adjust the test schedule accordingly and prioritize high-risk test cases first
 - Defects not fixed in time for testing: Track blockers in bug reports and communicate daily in standups or via ticketing tools (e.g., Azure DevOps)
 
-## 8. Entry & Exit Criteria
+## 9. Entry & Exit Criteria
 ### Entry
 - Dev team has deployed the latest build
 - Acceptance criteria are reviewed and ready
@@ -51,7 +51,7 @@ This test plan covers the functional testing activities for the internal web-bas
 - All high-priority test cases passed
 - No critical or high severity defects open
 
-## 9. Team
+## 10. Team
 - QA Manual Tester: Rocio Bustamante
 - Product Owner: Denisa
 - Developers: Sergio, William
