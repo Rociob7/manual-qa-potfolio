@@ -1,26 +1,26 @@
-# Bug Report - Paid Status Not Saved
+# Bug Report - Netting maintenance- The task is not executed for users without Administration permissions
 
 **ID:** BUG-001  
-**Title:** "Paid" status not saved after refreshing the page  
+**Title:** Netting maintenance task is not executed for users without permissions  
 **Severity:** High  
 **Priority:** High  
-**Reported by:** [Your Name]  
+**Reported by:** Rocio Bustamante 
 **Date:** 2025-04-05
 
 ## Steps to Reproduce
-1. Open any invoice in "Sent" status  
-2. Change the status to "Paid"  
-3. Refresh the page
+1. PRE-REQ: Log in to QA as a user without Administration permissions. Exits a weekly task previously created for Netting maintenance.
+2. Observe the web-app sections after the task has started
+3. Validate that the user can only see the maintenance window; other sections are not available
 
 ## Expected Result
-The invoice should remain in "Paid" status
+The task starts, the web app is blocked, and the user can only see the maintenance window.
 
 ## Actual Result
-The status reverts back to "Sent"
+The task did not start, the user can see the web app according to the user's permissions.
 
 ## Environment
-- Chrome v123
-- UAT environment
+- Edge v135
+- QA environment
 
 ## Attachments
 N/A
